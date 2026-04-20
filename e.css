@@ -1,0 +1,195 @@
+body {
+    background-color: rgb(255, 255, 255);
+    margin: 0em 2em 1em 2em;
+}
+
+#header {
+    background-color: rgb(229, 231, 230);
+    gap: 40px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around; 
+    list-style-type: none;
+    margin: 0em 0em 0em 0em;
+    padding: 0.625rem;
+    text-align: left;
+    color:black;
+}
+.menu  {
+    list-style-type: none;
+    font-family: "Roboto", "Inter", sans-serif; 
+    color:rgb(16, 4, 72);   
+}
+
+  .title {
+    text-align: center;
+    font-size: 200px;
+    padding:1.25rem 0.625rem 0.625rem 0.625rem;
+    font-family: Impact, Haettenschweiler, 'Roboto', sans-serif;
+}
+
+ .number-one, .number-two, .number-three {
+    font-size: 2.5rem;
+    text-align: left;
+    font-family: "Roboto", "Inter", sans-serif;
+    font-weight: bold;
+}
+
+.number-one{
+    color:rgb(4, 57, 54);
+}
+
+h2{
+    font-family: "Roboto", "Inter", sans-serif;
+    color:rgb(4, 57, 54);
+}
+.artist-one {
+    display: flex;
+    justify-content: space-between;
+    max-height: 25rem;
+    object-fit: fill;
+    gap: 1.25rem;
+    background-color: rgba(11, 52, 66, 0.5);
+}
+
+.line-break-one {
+border: 5px solid rgb(4, 57, 54);
+}
+
+.enhypen-spotify{
+    float:right;
+}
+
+.enhypen-img {
+    width: 46.875rem;
+    height: 25rem;
+    opacity:1.0;
+}
+
+.enhypen-img-two {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.enhypen-img:hover{
+    opacity: 0.5;
+    transition-duration: 1s;
+}
+
+.desc-one{
+    font-size: 1rem;
+    font-family: "Roboto", "Inter", sans-serif;
+    max-width: 25rem;
+    padding: 0.625rem 0.625rem 0.625rem 0.625rem;
+    color: rgb(255, 255, 255);
+}
+
+
+.desc-one:hover {
+    background-color: rgba(11, 52, 66, 0.7);
+}
+
+
+.artist-two {
+    display: flex;
+    justify-content: space-between;
+    max-height: 25rem;
+    object-fit: fill;
+    gap: 1.25rem;
+    background-color: rgba(4, 4, 4, 0.5);
+}
+
+.p1h-spotify{
+    float:right;
+}
+
+.p1h-img {
+    width: 46.875rem;
+    height: 25rem;
+    opacity:1.0;
+}
+
+.p1h-img:hover{
+    opacity: 0.5;
+    transition-duration: 1s;
+}
+
+.number-two{
+    color:rgb(22, 22, 22);
+}
+
+.desc-two{
+    font-size: 1rem;
+    font-family: "Roboto", "Inter", sans-serif;
+    max-width: 25rem;
+    padding: 0.625rem 0.625rem 0.625rem 0.625rem;
+    color: rgb(255, 255, 255);
+}
+
+
+.desc-two:hover {
+    background-color: rgba(75, 80, 82, 0.7);
+}
+
+.line-break-two {
+border: 5px solid rgb(28, 29, 29);
+}
+
+
+.artist-three {
+    display: flex;
+    justify-content: space-between;
+    max-height: 25rem;
+    object-fit: fill;
+    gap: 1.25rem;
+    background-color: rgba(31, 77, 186, 0.5);
+}
+
+.number-three{
+    color:rgb(24, 20, 59);
+}
+
+.svt-img {
+    width: 46.875rem;
+    height: 25rem;
+    opacity:1.0;
+}
+
+.svt-img:hover{
+    opacity: 0.5;
+    transition-duration: 1s;
+}
+
+.svt-spotify{
+    float:right;
+}
+
+.desc-three{
+    font-size: 1rem;
+    font-family: "Roboto", "Inter", sans-serif;
+    max-width: 25rem;
+    padding: 0.625rem 0.625rem 0.625rem 0.625rem;
+    color: rgb(255, 255, 255);
+}
+
+
+.desc-three:hover {
+    background-color: rgba(30, 46, 136, 0.7);
+}
+
+.line-break-three {
+border: 5px solid rgb(16, 4, 72);
+}
+
+.kpoplinkone, .kpoplinktwo, .kpoplinkthree {
+    color:white;
+}
+
+
+.artist-one-two {
+    object-fit: fill;
+    background-color: rgb(51, 93, 81);
+    padding: 1.25rem;
+}
